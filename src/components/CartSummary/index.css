@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.cart-summary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  margin-top: 30px;
+}
+
+.cart-summary-card {
+  padding: 10px;
+}
+
+.checkout-btn {
+  height: 40px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 100%;
+
+  border: none;
+  border-radius: 5px;
+
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .order-total-price {
+    font-size: 18px;
+  }
+
+  .items-in-cart {
+    font-size: 15px;
+  }
+}
